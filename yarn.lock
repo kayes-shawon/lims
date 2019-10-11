@@ -3831,7 +3831,6 @@ joi@^13.0.0:
 js-cookie@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.0.tgz#1b2c279a6eece380a12168b92485265b35b1effb"
-  integrity sha1-Gywnmm7s44ChIWi5JIUmWzWx7/s=
 
 js-message@1.0.5:
   version "1.0.5"
@@ -6604,7 +6603,6 @@ vue@^2.5.17:
 vuex@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
-  integrity sha512-wLoqz0B7DSZtgbWL1ShIBBCjv22GV5U+vcBFox658g6V0s4wZV9P4YjCNyoHSyIBpj1f29JBoNQIqD82cR4O3w==
 
 watchpack@^1.5.0:
   version "1.6.0"
