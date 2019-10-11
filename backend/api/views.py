@@ -2,7 +2,7 @@ from django.views.generic import TemplateView
 from django.views.decorators.cache import never_cache
 from rest_framework import viewsets
 
-from .models import Message, MessageSerializer
+from .models import Message, MessageSerializer, Account, AccountSerializer
 
 
 # Serve Vue Application
@@ -17,3 +17,9 @@ class MessageViewSet(viewsets.ModelViewSet):
     serializer_class = MessageSerializer
 
 
+class AccountViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows accounts to be viewed
+    """
+    queryset = Account.objects.all()
+    serializer_class = AccountSerializer
